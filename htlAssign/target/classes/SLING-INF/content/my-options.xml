@@ -1,0 +1,50 @@
+<node>
+    <primaryNodeType>nt:unstructured</primaryNodeType>
+    <node>
+        <name>Node1</name>
+        <primaryNodeType>nt:unstructured</primaryNodeType>
+        <property>
+            <name>text</name>
+            <type>String</type>
+            <value>Node 1</value>
+        </property>
+        <property>
+            <name>value</name>
+            <type>String</type>
+            <value>1</value>
+        </property>
+    </node>
+
+
+    <node>
+        <name>Node2</name>
+        <primaryNodeType>nt:unstructured</primaryNodeType>
+        <property>
+            <name>text</name>
+            <type>String</type>
+            <value>Node2</value>
+        </property>
+        <property>
+            <name>value</name>
+            <type>String</type>
+            <value>2</value>
+        </property>
+    </node>
+
+
+    <node>
+        <name>Node3</name>
+        <primaryNodeType>nt:unstructured</primaryNodeType>
+        <property>
+            <name>text</name>
+            <type>String</type>
+            <value>Node 3</value>
+        </property>
+        <property>
+            <name>value</name>
+            <type>String</type>
+            <value>3</value>
+        </property>
+    </node>
+
+</node>

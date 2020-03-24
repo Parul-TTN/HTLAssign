@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>${properties.jcr:title}</title>
+    <meta charset="utf-8">
+</head>
+<body data-sly-use.obj="logic.js">
+
+<sly data-sly-use.ques2="Ques2"></sly>
+<sly data-sly-use.template="template.html"></sly>
+<sly data-sly-call='${template.mytemplate @ list=ques2.resourceChild ,bgcolor="red"}'></sly>
+</body>
+</html>

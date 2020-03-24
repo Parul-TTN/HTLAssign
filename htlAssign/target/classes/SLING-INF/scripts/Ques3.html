@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>${properties.jcr:title}</title>
+    <meta charset="utf-8">
+</head>
+<body data-sly-use.obj="logic.js">
+
+<h1>Question 3</h1>
+</body>
+</html>
+<script>
+    fetch("http://localhost:8080/content/htl/my-servlets.color.json").then(res=>res.json()).then(res=>{
+    document.querySelector('body').style.background=res["color"];
+
+    });
+
+
+
+</script>
